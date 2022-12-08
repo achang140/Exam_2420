@@ -6,7 +6,7 @@
 ### Part 2 
 * Line 1: Change 1 to 0 by typing "r" and then "0" to replace 1 
 * Line 5: Change V by C by typing "r" and then "C" to replace V
-* Line 10: %s/numbs/:digit: to search for "numbs" and replace with ":digit:" <br/>
+* Line 10: `%s/numbs/:digit:` to search for "numbs" and replace with ":digit:" <br/>
 Since there is only 1 "numbs" in the file, it would be okay to change it with %s to search for the word and replace it with another word. 
 
 ![Part 2 Screenshot](./images/Part2.png)
