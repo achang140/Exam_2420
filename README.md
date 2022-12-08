@@ -44,6 +44,22 @@ echo $WHO
 
 ### Part 5
 
+```Shell 
+[Unit]
+Description=motd file with all the users and current logged in user
+
+[Service]
+Type=oneshot
+ExecStart=/opt/partfour/part4-script
+
+[Install]
+WantedBy=multi-user.target
+```
+* The service file is placed in /etc/systemd/system 
+
+* sudo systemctl start part4.service 
+* sudo systemctl enable part4.service 
+* sudo systemctl status part4.service 
 
 ### Part 6 
 
@@ -58,6 +74,6 @@ Persistent=true
 [Install]
 WantedBy=timers.target
 ```
-* sudo systemctl start part6.timer 
-* sudo systemctl enable part6.timer 
-* sudo systemctl status part6.timer 
+* sudo systemctl start part4.timer 
+* sudo systemctl enable part4.timer 
+* sudo systemctl status part4.timer 
