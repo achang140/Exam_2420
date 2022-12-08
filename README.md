@@ -26,7 +26,7 @@ journalctl -b 0 -o json-pretty
 ```Shell
 #!/bin/bash
 
-USERS=$(grep -E '(1[0-9]{3}|5000)' /etc/passwd | awk -F':' '{ printf $1" "$3" "$7" " }')
+USERS=$(grep -E '(1[0-9]{3}|5000)' /etc/passwd | awk -F':' '{ printf $1""$3""$7" " }')
 
 WHO=$(whoami)
 
