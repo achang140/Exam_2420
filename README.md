@@ -31,7 +31,6 @@ USERS=$(grep -E '(1[0-9]{3}|5000)' /etc/passwd | awk -F':' '{ printf $1" "$3" "$
 WHO=$(whoami)
 
 echo "Regular users on the system are:"
-#echo ${USERS}
 
 for i in ${USERS}; do
  echo ${i}
