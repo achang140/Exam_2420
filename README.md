@@ -23,6 +23,9 @@ journalctl -b 0 -o json-pretty
 ```
 
 ### Part 4 
+
+![Part 4](./images/Part4.png)
+
 ```Shell
 #!/bin/bash
 
