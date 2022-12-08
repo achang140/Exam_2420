@@ -76,6 +76,8 @@ Persistent=true
 [Install]
 WantedBy=timers.target
 ```
+* The timer file is placed in /etc/systemd/system
+
 * sudo systemctl start part4.timer 
 * sudo systemctl enable part4.timer 
 * sudo systemctl status part4.timer 
