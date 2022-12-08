@@ -1,7 +1,7 @@
 # ACIT 2420 - Final Exam 
 
 ### Part 1 
-* sudo apt update && sudo apt upgrade 
+* `sudo apt update && sudo apt upgrade`
 
 ### Part 2 
 * Line 1: Change 1 to 0 by typing "r" and then "0" to replace 1 
